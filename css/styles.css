@@ -80,7 +80,7 @@ a {
     color: var(--white);
     font-size: 56px;
     line-height: calc(60/50);
-    font-weight: 700;
+    text-align: center;
 }
 .hero-button {
     background: var(--primary-brand);
@@ -88,6 +88,9 @@ a {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     cursor: pointer;
+    font-weight: 500;
+    line-height: calc(24/16);
+    letter-spacing: 0.04em;
 }
 .hero-button:hover {
     background: var(--pressed-state);
@@ -125,12 +128,13 @@ a {
 .ftr-logo {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
-    line-height: calc(24/18);
+    line-height: calc(21/18);
     font-weight: 800;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--primary-brand);
 }
+
 .ftr-logo-studio {
     color: var(--white);
 }
@@ -151,7 +155,10 @@ a {
     letter-spacing: 0.04em;
     color: var(--primary-brand);
     cursor: pointer;
+    font-weight: 500;
+    line-height: calc(24/16);
 }
+
 .filter-btn:hover {
     background: var(--pressed-state);
     color: var(--white);
@@ -159,11 +166,6 @@ a {
 .filter-btn:focus {
     background: var(--pressed-state);
     color: var(--white);
-}
-
-.row-items {
-    background: var(--white);
-    border: 1px solid var(--accent);
 }
 
 .row-subtitle {
